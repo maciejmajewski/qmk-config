@@ -8,13 +8,6 @@ enum preonic_layers {
   _SOUND
 };
 
-enum preonic_keycodes {
-  QWERTY = SAFE_RANGE,
-  LOWER,
-  RAISE,
-  SOUND
-};
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_QWERTY] = LAYOUT_preonic_1x2uL(
