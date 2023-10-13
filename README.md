@@ -20,3 +20,15 @@ Build with `qmk`:
 ```sh
 qmk compile -kb preonic/rev3_drop -km mmaj
 ```
+
+#### K3 Pro
+
+```
+cd /Users/maj/Development/qmk/qmk_firmware_keychron/keyboards/keychron/k3_pro/ansi/rgb/keymaps
+ln -s ../../../../../../../keyboards-config-qmk/k3_pro maj
+
+qmk config user.qmk_home=/Users/maj/Development/qmk/qmk_firmware_keychron
+qmk compile -kb keychron/k3_pro/ansi/rgb -km maj
+```
+
+Reset Key: Connect the USB cable, toggle mode switch to "Off", hold down the Esc key or reset button underneath space bar, then toggle then switch to "Cable".
